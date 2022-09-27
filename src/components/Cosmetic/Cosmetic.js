@@ -17,8 +17,8 @@ const Cosmetic = ({cosmetic}) => {
       <h2>Buy This: {name}</h2>
       <p>Only for: ${price}</p>
       <p><small>It has id: {id}</small></p>
-      <button onClick={() => addToCart(id)}>Add to Cart</button>
-      <button onClick={() => removeFromCart(id)}>Remove From cart</button>
+      <button className='cart-btn' onClick={() => addToCart(id)}>Add to Cart</button>
+      <button className='cart-btn' onClick={() => removeFromCart(id)}>Remove From cart</button>
     </div>
   );
 }

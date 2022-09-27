@@ -4,3 +4,13 @@
   border-radius: 10px;
   padding: 10px;
 }
+
+.cart-btn{
+  background: #2173ff;
+  color: white;
+  padding: 7px 15px;
+  margin: 0 10px;
+  border: 0;
+  border-radius: 5px;
+  font-size: 15px;
+}

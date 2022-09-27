@@ -6,4 +6,6 @@ const multiply = (first, second) =>{
   return first * second;
 }
 
-export {add, multiply};
+const getTotalPrice = products => products.reduce((total, product) => total + product.price, 0);
+
+export {add, multiply, getTotalPrice};
